@@ -1,0 +1,68 @@
+# mkdocs serve -a 127.0.0.1:8000
+site_name: LPMS | Новая система управления обучением
+repo_url: https://github.com/mmmylnikov/lpms
+repo_name: mmmylnikov/lpms
+nav:
+  - Добро пожаловать!: index.md
+  - С чего начать:
+    - start/index.md
+    - Переменные окружения: start/env.md
+    - Зависимоcти: start/requirements.md
+  - Скриншоты: 
+    - Авторизация и профили: screenshots/auth.md
+    - Обучение: screenshots/learn.md
+  - Журнал разработки: 
+    - Задачи: devlog/todo.md
+    - Версии: devlog/log.md
+theme: 
+  icon:
+    repo: fontawesome/brands/github
+  logo: images/keyboard.svg
+  favicon: images/favicon.svg
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Переключиться в темный режим
+      primary: grey
+      accent: brown
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Переключиться в светлый режим
+      primary: brown
+      accent: grey
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mmmylnikov/lpms
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UC-OVMPlMA3-YCIeg4z5z23A
+    - icon: fontawesome/brands/chrome
+      link: http://www.moscowpython.ru/
+    - icon: fontawesome/brands/python
+      link: https://learn.python.ru/
+markdown_extensions:
+  - admonition
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-authors
+
+
+copyright: |
+  &copy; 2024 <a href="https://learn.python.ru/" target="_blank">LEARN PYTHON</a> | курсы программирования на Python
