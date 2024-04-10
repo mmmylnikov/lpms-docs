@@ -4,6 +4,12 @@ repo_url: https://github.com/mmmylnikov/lpms
 repo_name: mmmylnikov/lpms
 nav:
   - Добро пожаловать!: index.md
+  - Описание системы:
+    - 1. Цель проекта: terms/object.md
+    - 2. Описание системы: terms/description.md
+    - 3. Предлагаемый стек технологий: terms/stack.md
+    - 4. Требования к дизайну: terms/styling.md 
+    - 5. ER-модель: terms/erd.md
   - С чего начать:
     - start/index.md
     - Переменные окружения: start/env.md
