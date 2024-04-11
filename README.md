@@ -19,18 +19,24 @@
 - Автоматизация процессов управления обучением
 
 
-## Содержание
 
-- [Предисловие](https://mmmylnikov.github.io/lpms-docs/)
-- [С чего начать](https://mmmylnikov.github.io/lpms-docs/start/)
-    - [Переменные окружения](https://mmmylnikov.github.io/lpms-docs/start/env/)
-    - [Зависимоcти](https://mmmylnikov.github.io/lpms-docs/start/requirements/)
-- Скриншоты
-    - [Авторизация и профили](https://mmmylnikov.github.io/lpms-docs/screenshots/auth/)
-    - [Обучение](https://mmmylnikov.github.io/lpms-docs/screenshots/learn/)
+## [Материалы](https://mmmylnikov.github.io/lpms-docs/)
+- Описание системы
+  - [Цель проекта](https://mmmylnikov.github.io/terms/object/)
+  - [Функциональные блоки](https://mmmylnikov.github.io/terms/description/)
+  - [Предлагаемый стек технологий](https://mmmylnikov.github.io/terms/stack/)
+  - [Требования к дизайну](https://mmmylnikov.github.io/terms/styling/)
+  - [ER-модель](https://mmmylnikov.github.io/terms/erd/)
+- Быстрый старт
+  - [Установка и настройка](https://mmmylnikov.github.io/lpms-docs/start/)
+  - [Переменные окружения](https://mmmylnikov.github.io/lpms-docs/start/env/)
+  - [Зависимоcти](https://mmmylnikov.github.io/lpms-docs/start/requirements/)
+- Скриншоты интерфейса
+  - [Авторизация и профили](https://mmmylnikov.github.io/lpms-docs/screenshots/auth/)
+  - [Процесс обучения](https://mmmylnikov.github.io/lpms-docs/screenshots/learn/)
 - Журнал разработки
-    - [Задачи](https://mmmylnikov.github.io/lpms-docs/devlog/todo/)
-    - [Версии](https://mmmylnikov.github.io/lpms-docs/devlog/log/)
+  - [Задачи](https://mmmylnikov.github.io/lpms-docs/devlog/todo/)
+  - [История версий](https://mmmylnikov.github.io/lpms-docs/devlog/log/)
 
 
 
