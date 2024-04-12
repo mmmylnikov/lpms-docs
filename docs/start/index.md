@@ -2,7 +2,8 @@
 
 Есть несколько способов установить систему:
 
-- [Самостоятельная сборка из Docker compose](install/compose-build.md) (рекомендуется)
+- [Запуск из Docker compose](install/compose-up.md) (рекомендуется)
+- [Самостоятельная сборка из Docker compose](install/compose-build.md)
 - [Самостоятельная сборка из исходников](install/src.md)
 
 

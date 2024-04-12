@@ -13,6 +13,7 @@ nav:
   - С чего начать:
     - start/index.md
     - Установка системы:
+      - Запуск из Docker compose: start/install/compose-up.md
       - Сборка из Docker compose: start/install/compose-build.md
       - Сборка из исходников: start/install/src.md
     - Переменные окружения: start/env.md

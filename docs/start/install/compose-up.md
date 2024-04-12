@@ -1,4 +1,4 @@
-# Самостоятельная сборка из Docker compose
+# Запуск из docker compose
 
 По умолчанию в образ системы включены:
 
@@ -7,13 +7,22 @@
 - панель администрирования БД (Adminer). Доступен на порту `8080`
 - веб-сервер Nginx
 
+> [Docker образ LPMS](https://github.com/mmmylnikov/lpms/pkgs/container/lpms) размещен в GitHub Container registry
+
 
 ## Перед установкой
 
-### Клонируйте репозиторий
+### Создайте папку приложения
 
 ``` sh
-git clone https://github.com/mmmylnikov/lpms.git
+mkdir /opt/lpms
+cd /opt/lpms
+```
+
+### Скачайте инструкции для Docker compose 
+
+``` sh
+curl -o docker-compose.yml -L https://github.com/mmmylnikov/lpms/blob/dev/docker-compose.yml
 ```
 
 ### Настройте окружение
@@ -23,7 +32,6 @@ git clone https://github.com/mmmylnikov/lpms.git
 ``` sh
 nano .env
 ```
-
 
 ``` ini title=".env"
 # основные:
@@ -63,19 +71,15 @@ GITHUB_API_TOKEN=  # (11)
 
 #### docker-compose.yml
 
+!!! info "Примечание"
+    При необходимости отредактируйте команды Docker copmose, например, 
+    если собираетесь использовать собственную базу данных
+
 ``` sh
 nano docker-compose.yml
 ```
 
-!!! warning "Обратите внимание"
-    В файле `docker-compose.yml` выделена строка "30".
-    В ней осуществляется загрузка тестовой базы материалов обучения.
-    В настоящий момент тестовая база данных не поставляется с файлами системы. 
-    Ее можно получить по запросу. Напишите [мне](https://t.me/mmmylnikov), я вам постараюсь помочь.
-    Если у вас нет тестовой базы материалов - **удалите эту строку из файла**.
-
-
-``` yml title="docker-compose.yml" linenums="1" hl_lines="30"
+``` yml title="docker-compose.yml" linenums="1"
 version: '3.9'
 services:
   db:
@@ -99,13 +103,12 @@ services:
     ports:
       - 8080:8080
   app:
-    build: ./lpms
+    image: ghcr.io/mmmylnikov/lpms:latest
     restart: always
     depends_on:
       - db
     command: sh -c "python manage.py migrate &&
                     python manage.py collectstatic --noinput &&
-                    python manage.py loaddata db_test.json &&
                     gunicorn config.wsgi:application --bind 0.0.0.0:8000"
     volumes:
       - lpms_static:/usr/src/app/shared/static
@@ -134,8 +137,10 @@ volumes:
 ## Запустите систему
 
 ``` bash 
-docker compose up
+docker compose up  # (1)
 ```
+
+1. Используйте флаг "-d", чтобы запустить систему в фоновом режиме: `docker compose up -d`
 
 !!! success "Поздравляю, система готова к работе!"
 
@@ -143,3 +148,36 @@ docker compose up
     наполнить вашу систему учебными материалами:
     `http://localhost/admin/`
 ****
+
+### Полезные команды
+
+#### Собрать статические файлы 
+
+> Путь для сохранения по умолчанию: `shared/static/`
+
+``` bash 
+docker exec -it lpms-app python manage.py collectstatic
+```
+
+#### Выполнить миграции
+
+``` bash 
+docker exec -it lpms-app python manage.py migrate
+```
+
+#### Создать суперпользователя
+
+``` bash 
+docker exec -it lpms-app python manage.py createsuperuser
+```
+
+#### Загрузить тестовую базу материалов обучения
+
+!!! warning "Обратите внимание"
+
+    В настоящий момент тестовая база данных не поставляется с файлами системы. 
+    Ее можно получить по запросу. Напишите [мне](https://t.me/mmmylnikov), я вам постараюсь помочь.
+
+``` bash 
+docker exec -it lpms-app python manage.py loaddata db_test.json
+```
