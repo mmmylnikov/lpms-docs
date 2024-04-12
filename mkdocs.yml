@@ -4,12 +4,6 @@ repo_url: https://github.com/mmmylnikov/lpms
 repo_name: mmmylnikov/lpms
 nav:
   - Добро пожаловать!: index.md
-  - Описание системы:
-    - 1. Цель проекта: terms/object.md
-    - 2. Описание системы: terms/description.md
-    - 3. Предлагаемый стек технологий: terms/stack.md
-    - 4. Требования к дизайну: terms/styling.md 
-    - 5. ER-модель: terms/erd.md
   - С чего начать:
     - start/index.md
     - Установка системы:
@@ -18,6 +12,12 @@ nav:
       - Сборка из исходников: start/install/src.md
     - Переменные окружения: start/env.md
     - Зависимоcти: start/requirements.md
+  - Описание системы:
+    - 1. Цель проекта: terms/object.md
+    - 2. Описание системы: terms/description.md
+    - 3. Предлагаемый стек технологий: terms/stack.md
+    - 4. Требования к дизайну: terms/styling.md 
+    - 5. ER-модель: terms/erd.md
   - Скриншоты: 
     - Авторизация и профили: screenshots/auth.md
     - Обучение: screenshots/learn.md
@@ -61,6 +61,7 @@ theme:
       primary: brown
       accent: grey
 extra:
+  generator: true
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mmmylnikov/lpms
@@ -87,4 +88,4 @@ plugins:
 
 
 copyright: |
-  &copy; 2024 <a href="https://learn.python.ru/" target="_blank">LEARN PYTHON</a> | курсы программирования на Python
+  <img src="https://mmmylnikov.github.io/lpms-docs/images/made-in-russia-sign-en.png" width="36px"></img> &copy; 2024 <a href="https://learn.python.ru/" target="_blank">LEARN PYTHON</a> | курсы программирования на Python

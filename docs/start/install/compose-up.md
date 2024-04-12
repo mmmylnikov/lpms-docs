@@ -22,7 +22,7 @@ cd /opt/lpms
 ### Скачайте инструкции для Docker compose 
 
 ``` sh
-curl -o docker-compose.yml -L https://github.com/mmmylnikov/lpms/blob/dev/docker-compose.yml
+curl -o docker-compose.yml -L https://github.com/mmmylnikov/lpms/blob/dev/docker-compose-ghcr.yml
 ```
 
 ### Настройте окружение

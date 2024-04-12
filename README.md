@@ -19,24 +19,28 @@
 - Автоматизация процессов управления обучением
 
 
-
 ## [Материалы](https://mmmylnikov.github.io/lpms-docs/)
+- Быстрый старт
+  - [Установка и настройка](https://mmmylnikov.github.io/lpms-docs/start/)
+  - [Переменные окружения](https://mmmylnikov.github.io/lpms-docs/start/env/)
+  - [Зависимоcти](https://mmmylnikov.github.io/lpms-docs/start/requirements/)
 - Описание системы
   - [Цель проекта](https://mmmylnikov.github.io/terms/object/)
   - [Функциональные блоки](https://mmmylnikov.github.io/terms/description/)
   - [Предлагаемый стек технологий](https://mmmylnikov.github.io/terms/stack/)
   - [Требования к дизайну](https://mmmylnikov.github.io/terms/styling/)
   - [ER-модель](https://mmmylnikov.github.io/terms/erd/)
-- Быстрый старт
-  - [Установка и настройка](https://mmmylnikov.github.io/lpms-docs/start/)
-  - [Переменные окружения](https://mmmylnikov.github.io/lpms-docs/start/env/)
-  - [Зависимоcти](https://mmmylnikov.github.io/lpms-docs/start/requirements/)
 - Скриншоты интерфейса
   - [Авторизация и профили](https://mmmylnikov.github.io/lpms-docs/screenshots/auth/)
   - [Процесс обучения](https://mmmylnikov.github.io/lpms-docs/screenshots/learn/)
 - Журнал разработки
   - [Задачи](https://mmmylnikov.github.io/lpms-docs/devlog/todo/)
   - [История версий](https://mmmylnikov.github.io/lpms-docs/devlog/log/)
+
+<hr>
+<center>© 2024 LPMS | Система управления курсами программирования</center>
+
+<center><img src="docs/images/made-in-russia-sign-en-bl.png" height="24px"></center>
 
 
 
