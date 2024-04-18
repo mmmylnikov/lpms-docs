@@ -1,3 +1,7 @@
+
+<center><img src="images/logo-line-alfa.png" width="640px"></img></center>
+<br>
+
 # Добро пожаловать!
 
 > Настоящий проект реализуется в рамках подготовки итоговой выпускной работы студента набора LPA5 курса Learn Python Advanced

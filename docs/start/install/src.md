@@ -18,7 +18,7 @@ python3.12 -m venv venv
 source venv/bin/activate
 ```
 
-Установите необходимые [зависимости](../start/requirements.md)
+Установите необходимые [зависимости](https://github.com/mmmylnikov/lpms/blob/main/lpms/requirements.md)
 
 ``` sh
 pip install -r lpms/requirements.txt
@@ -26,7 +26,7 @@ pip install -r lpms/requirements.txt
 
 ## Настройка окружения
 
-Установите [переменные окружения](../start/env.md)
+Установите [переменные окружения](https://github.com/mmmylnikov/lpms/blob/main/env)
 
 ### Основные
 

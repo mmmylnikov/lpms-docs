@@ -6,7 +6,10 @@
 |---------------------|--------------------------------|
 | `DEBUG`             |`True` или `False`              |
 | `ALLOWED_HOSTS` | Хосты/доменные имена через запятую, которые являются допустимыми для данного сайта. Например: `127.0.0.1,localhost` |
+| `CSRF_TRUSTED_ORIGINS` | Список доверенных испочников для небезопасных запросов Например: `https://lpms.mmmylnikov.ru` |
 | `DJANGO_SECRET_KEY` | [Секретный ключ](https://docs.djangoproject.com/en/5.0/ref/settings/#secret-key) для вашей конкретной установки приложения. |
+| `INTERNAL_IPS` | [Список IP адресов](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html#configure-internal-ips) для вывода отладочной инфоормации|
+
 
 ## База данных
 

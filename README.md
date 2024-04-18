@@ -1,3 +1,6 @@
+<center><img src="docs/images/logo-line-alfa.png" width="640px"></img></center>
+<br>
+
 # LPMS docs
 
 > Настоящий проект реализуется в рамках подготовки итоговой выпускной работы студента набора LPA5 курса Learn Python Advanced
@@ -33,6 +36,7 @@
 - Скриншоты интерфейса
   - [Авторизация и профили](https://mmmylnikov.github.io/lpms-docs/screenshots/auth/)
   - [Процесс обучения](https://mmmylnikov.github.io/lpms-docs/screenshots/learn/)
+  - [Уведомления](https://mmmylnikov.github.io/lpms-docs/screenshots/notify/)
 - Журнал разработки
   - [Задачи](https://mmmylnikov.github.io/lpms-docs/devlog/todo/)
   - [История версий](https://mmmylnikov.github.io/lpms-docs/devlog/log/)

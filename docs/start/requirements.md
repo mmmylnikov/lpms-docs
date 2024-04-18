@@ -1,7 +1,7 @@
 # Зависимости
 
-- основные в [requirements.txt](https://github.com/mmmylnikov/lpms/blob/main/requirements.txt)
-- для разработки в [requirements_dev.txt](https://github.com/mmmylnikov/lpms/blob/main/requirements_dev.txt)
+- основные в [requirements.txt](https://github.com/mmmylnikov/lpms/blob/main/lpms/requirements.txt)
+- для разработки в [requirements_dev.txt](https://github.com/mmmylnikov/lpms/blob/main/lpms/requirements_dev.txt)
 
 ## Бэкенд
 

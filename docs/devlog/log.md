@@ -1,8 +1,8 @@
 # Версии
 
-## 0.4 (ветка [dev](https://github.com/mmmylnikov/lpms/tree/dev))
+## 0.4 (ветка [main](https://github.com/mmmylnikov/lpms/tree/main))
 
-`2024.04.11`
+`2024.04.16`
 
 - [+] Деплой
     - добавлены файлы для запуска приложения из docker-compose
@@ -29,7 +29,7 @@
 - [+] добавил robots.txt
 - [+] поправил доступ отдельным вьюхам по логину
 
-## 0.3 (ветка [main](https://github.com/mmmylnikov/lpms/tree/main))
+## 0.3
 
 `2024.04.07`
 

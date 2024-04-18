@@ -21,6 +21,7 @@ nav:
   - Скриншоты: 
     - Авторизация и профили: screenshots/auth.md
     - Обучение: screenshots/learn.md
+    - Уведомления: screenshots/notify.md
   - Журнал разработки: 
     - Задачи: devlog/todo.md
     - Версии: devlog/log.md
@@ -52,13 +53,13 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Переключиться в темный режим
-      primary: grey
+      primary: teal
       accent: brown
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Переключиться в светлый режим
-      primary: brown
+      primary: teal
       accent: grey
 extra:
   generator: true
