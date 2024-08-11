@@ -1,6 +1,10 @@
 # mkdocs serve -a 127.0.0.1:8000
-site_name: LPMS | Новая система управления обучением
+# mike serve -a 127.0.0.1:8000
+# mike deploy --push --update-aliases 0.2 latest
+# mike deploy --push 24.09 devel
+site_name: LMS Learn Python
 repo_url: https://github.com/mmmylnikov/lpms
+site_url: https://mmmylnikov.github.io/lpms-docs/
 repo_name: mmmylnikov/lpms
 nav:
   - Добро пожаловать!: index.md
@@ -12,6 +16,22 @@ nav:
       - Сборка из исходников: start/install/src.md
     - Переменные окружения: start/env.md
     - Зависимоcти: start/requirements.md
+  - Деплой:
+    - deploy/index.md
+    - Подготовка окружения:
+      - Описание компонентов: deploy/setup/stack.md
+      - Интеграция внешних систем: deploy/setup/external.md
+      - Создание рабочего каталога: deploy/setup/workdir.md
+      - Переменные окружения: deploy/setup/env.md
+      - Docker Compose: deploy/setup/compose.md
+    - Первичная настройка:
+      - Первый запуск: deploy/runapp/first.md
+      - Конфигурация Nginx: deploy/runapp/nginx.md
+    - Загрузка контента:
+      - Загрузка дампа: deploy/loaddata/dump.md
+      - Профиль администратора: deploy/loaddata/admin.md
+      - Оформление LP: deploy/loaddata/theme.md
+      - Учебные материалы: deploy/loaddata/content.md
   - Описание системы:
     - 1. Цель проекта: terms/object.md
     - 2. Описание системы: terms/description.md
@@ -31,6 +51,7 @@ theme:
   logo: images/keyboard.svg
   favicon: images/favicon.svg
   name: material
+  custom_dir: overrides
   language: ru
   features:
     - header.autohide
@@ -62,6 +83,11 @@ theme:
       primary: teal
       accent: grey
 extra:
+  version:
+    provider: mike
+    default: latest 
+    alias: true
+
   generator: true
   social:
     - icon: fontawesome/brands/github
@@ -82,10 +108,14 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 plugins:
-  - git-revision-date-localized:
-      enable_creation_date: true
-  - git-authors
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  # - git-authors
   - search
+  - mike:
+      canonical_version: latest
+      version_selector: true
+  # - with-pdf
 
 
 copyright: |
