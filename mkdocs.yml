@@ -18,20 +18,26 @@ nav:
     - Зависимоcти: start/requirements.md
   - Деплой:
     - deploy/index.md
-    - Подготовка окружения:
+    - 1. Подготовка окружения:
       - Описание компонентов: deploy/setup/stack.md
       - Интеграция внешних систем: deploy/setup/external.md
       - Создание рабочего каталога: deploy/setup/workdir.md
       - Переменные окружения: deploy/setup/env.md
       - Docker Compose: deploy/setup/compose.md
-    - Первичная настройка:
+    - 2. Первичная настройка:
       - Первый запуск: deploy/runapp/first.md
       - Конфигурация Nginx: deploy/runapp/nginx.md
-    - Загрузка контента:
+    - 3. Загрузка контента:
       - Загрузка дампа: deploy/loaddata/dump.md
       - Профиль администратора: deploy/loaddata/admin.md
       - Оформление LP: deploy/loaddata/theme.md
       - Учебные материалы: deploy/loaddata/content.md
+    - 4. Учебный процесс:
+      - Создание пользователей: deploy/learn/user.md
+      - Создание нового потока: deploy/learn/enrollment.md
+      - Просмотр контента: deploy/learn/content.md
+      - Выполнение заданий: deploy/learn/task.md
+      - Ревью работ: deploy/learn/review.md
   - Описание системы:
     - 1. Цель проекта: terms/object.md
     - 2. Описание системы: terms/description.md
@@ -119,4 +125,4 @@ plugins:
 
 
 copyright: |
-  <img src="https://mmmylnikov.github.io/lpms-docs/images/made-in-russia-sign-en.png" width="36px"></img> &copy; 2024 <a href="https://learn.python.ru/" target="_blank">LEARN PYTHON</a> | курсы программирования на Python
+  <img src="https://mmmylnikov.github.io/lpms-docs/latest/images/made-in-russia-sign-en.png" width="36px"></img> &copy; 2024 <a href="https://learn.python.ru/" target="_blank">LEARN PYTHON</a> | курсы программирования на Python

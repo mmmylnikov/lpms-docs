@@ -22,7 +22,7 @@
         - *Application description* (опционально)
         - *Authorization callback URL*
             - должен иметь вид `http://<HOST>/users/accounts/github/login/callback/`
-            - например, `http://auth.python.ru/users/accounts/github/login/callback/`
+            - например, `http://lms.python.ru/users/accounts/github/login/callback/`
             - обратите внимание, что адрес для авторизации `<HOST>` должен соотвествовать [маске](https://docs.github.com/ru/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps#redirect-urls)
 3. После сохранения:
     - запишите полученный *Client ID* 
