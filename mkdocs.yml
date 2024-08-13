@@ -31,6 +31,7 @@ nav:
       - Загрузка дампа: deploy/loaddata/dump.md
       - Профиль администратора: deploy/loaddata/admin.md
       - Оформление LP: deploy/loaddata/theme.md
+      - Уведомления: deploy/loaddata/notify.md
       - Учебные материалы: deploy/loaddata/content.md
     - 4. Учебный процесс:
       - Создание пользователей: deploy/learn/user.md
