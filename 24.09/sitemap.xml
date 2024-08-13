@@ -2,172 +2,177 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/learn/content/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/learn/enrollment/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/learn/review/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/learn/task/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/learn/user/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/loaddata/admin/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/loaddata/content/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/loaddata/dump/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/loaddata/notify/</loc>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/loaddata/theme/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/runapp/first/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/runapp/nginx/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/setup/compose/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/setup/env/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/setup/external/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/setup/stack/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/setup/workdir/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/devlog/log/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/devlog/todo/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/screenshots/auth/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/screenshots/learn/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/screenshots/notify/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/start/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/start/env/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/start/requirements/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/start/install/compose-build/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/start/install/compose-up/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/start/install/src/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/terms/description/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/terms/erd/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/terms/object/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/terms/stack/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/terms/styling/</loc>
-         <lastmod>2024-08-12</lastmod>
+         <lastmod>2024-08-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
