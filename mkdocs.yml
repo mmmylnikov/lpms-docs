@@ -35,10 +35,12 @@ nav:
       - Учебные материалы: deploy/loaddata/content.md
     - 4. Учебный процесс:
       - Создание пользователей: deploy/learn/user.md
-      - Создание нового потока: deploy/learn/enrollment.md
+      - Старт нового потока: deploy/learn/enrollment.md
       - Просмотр контента: deploy/learn/content.md
+      - Процесс обучения: deploy/learn/learn.md
       - Выполнение заданий: deploy/learn/task.md
       - Ревью работ: deploy/learn/review.md
+      - Аналитика успеваемости: deploy/learn/stat.md
   - Описание системы:
     - 1. Цель проекта: terms/object.md
     - 2. Описание системы: terms/description.md
@@ -114,6 +116,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - md_in_html
 plugins:
   # - git-revision-date-localized:
   #     enable_creation_date: true
