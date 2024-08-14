@@ -41,6 +41,11 @@ nav:
       - Выполнение заданий: deploy/learn/task.md
       - Ревью работ: deploy/learn/review.md
       - Аналитика успеваемости: deploy/learn/stat.md
+    - 5. Обслуживание системы:
+      - Установка обновлений: deploy/service/update.md
+      - Резервное копирование: deploy/service/backup.md
+      - Перезапуск системы: deploy/service/restart.md
+      - Прочие вопросы: deploy/service/other.md
   - Описание системы:
     - 1. Цель проекта: terms/object.md
     - 2. Описание системы: terms/description.md
