@@ -81,6 +81,26 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/service/backup/</loc>
+         <lastmod>2024-08-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/service/other/</loc>
+         <lastmod>2024-08-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/service/restart/</loc>
+         <lastmod>2024-08-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/service/update/</loc>
+         <lastmod>2024-08-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://mmmylnikov.github.io/lpms-docs/latest/deploy/setup/compose/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>

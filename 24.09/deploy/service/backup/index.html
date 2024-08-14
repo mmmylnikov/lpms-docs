@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://mmmylnikov.github.io/lpms-docs/latest/deploy/setup/external/">
+        <link rel="canonical" href="https://mmmylnikov.github.io/lpms-docs/latest/deploy/service/backup/">
       
       
-        <link rel="prev" href="../stack/">
+        <link rel="prev" href="../update/">
       
       
-        <link rel="next" href="../workdir/">
+        <link rel="next" href="../restart/">
       
       
       <link rel="icon" href="../../../images/favicon.svg">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Интеграция внешних систем - LMS Learn Python</title>
+        <title>Резервное копирование - LMS Learn Python</title>
       
     
     
@@ -123,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Интеграция внешних систем
+              Резервное копирование
             
           </span>
         </div>
@@ -702,8 +702,6 @@
                 
   
   
-    
-  
   
   
     
@@ -718,11 +716,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
         
           
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
@@ -736,7 +736,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             1. Подготовка окружения
@@ -750,7 +750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stack/" class="md-nav__link">
+      <a href="../../setup/stack/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -768,30 +768,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Интеграция внешних систем
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../setup/external/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -800,53 +780,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Содержание">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Содержание
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#github-oauth" class="md-nav__link">
-    <span class="md-ellipsis">
-      GITHUB OAuth
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#github-api" class="md-nav__link">
-    <span class="md-ellipsis">
-      GITHUB API
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#telegram-bot-api" class="md-nav__link">
-    <span class="md-ellipsis">
-      TELEGRAM BOT API
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -859,7 +792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../workdir/" class="md-nav__link">
+      <a href="../../setup/workdir/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -880,7 +813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../env/" class="md-nav__link">
+      <a href="../../setup/env/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -901,7 +834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../compose/" class="md-nav__link">
+      <a href="../../setup/compose/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1380,8 +1313,10 @@
                 
   
   
+    
   
   
+  
     
     
     
@@ -1394,13 +1329,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
         
           
           <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="">
@@ -1414,7 +1347,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_6">
             <span class="md-nav__icon md-icon"></span>
             5. Обслуживание системы
@@ -1428,7 +1361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../service/update/" class="md-nav__link">
+      <a href="../update/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1446,10 +1379,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../service/backup/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1458,6 +1400,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1470,7 +1413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../service/restart/" class="md-nav__link">
+      <a href="../restart/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1491,7 +1434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../service/other/" class="md-nav__link">
+      <a href="../other/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1895,106 +1838,20 @@
   
 
 
-<h1 id="_1">Интеграция внешних систем</h1>
-<p>Для корректной работы LMS Learn Python необходимо настроить поддержку внешних систем:</p>
-<ul>
-<li>GITHUB OAuth<ul>
-<li>Позволяет пользователям авторизоваться в системе используя учетную запись GitHub</li>
-</ul>
-</li>
-<li>GITHUB API<ul>
-<li>Позволяет системе синхронизировать учебный процесс с прогрессом выполнения заданий и их ревью в репозиториях GitHub </li>
-</ul>
-</li>
-<li>TELEGRAM BOT API<ul>
-<li>Позволяет пользователям получать уведомления об изменении статусов учебных заданий</li>
-</ul>
-</li>
-</ul>
-<h2 id="github-oauth">GITHUB OAuth</h2>
-<blockquote>
-<p>Назначение - авторизация пользователей</p>
-</blockquote>
-<ol>
-<li>Перейдите в <a href="https://github.com/settings/developers">настройки для разработчика</a> профиля GitHub</li>
-<li>Создайте <a href="https://github.com/settings/applications/new">новое OAuth App</a><ul>
-<li>Задайте настройки:<ul>
-<li><em>Application name</em> (например, <code>lpms-app</code>)</li>
-<li><em>Homepage URL</em> (например, <code>https://lms.python.ru/</code>)</li>
-<li><em>Application description</em> (опционально)</li>
-<li><em>Authorization callback URL</em><ul>
-<li>должен иметь вид <code>http://&lt;HOST&gt;/users/accounts/github/login/callback/</code></li>
-<li>например, <code>http://lms.python.ru/users/accounts/github/login/callback/</code></li>
-<li>обратите внимание, что адрес для авторизации <code>&lt;HOST&gt;</code> должен соотвествовать <a href="https://docs.github.com/ru/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps#redirect-urls">маске</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>После сохранения:<ul>
-<li>запишите полученный <em>Client ID</em> </li>
-<li>создайте и запишите  <em>Client secret</em> </li>
-<li>загрузите лого приложения (опционально)</li>
-</ul>
-</li>
-</ol>
-<blockquote>
-<p>Значения <em>Client ID (GITHUB_OAUTH_CLIENT_ID)</em>, <em>Client secret (GITHUB_OAUTH_SECRET)</em>, <em>Authorization callback URL (GITHUB_OAUTH_REDIRECT_URL)</em> будет необходимо указать в переменных окружения на последующих шагах.</p>
-</blockquote>
-<h2 id="github-api">GITHUB API</h2>
-<blockquote>
-<p>Назначение - повышение лимита суточных запросов для операций:</p>
-<ul>
-<li>Автокомплита названий репозиториев и пулл-реквестов студентов</li>
-<li>Синхронизации статусов ревью для кураторов и студентов</li>
-</ul>
-</blockquote>
-<ol>
-<li>Перейдите в <a href="https://github.com/settings/developers">настройки для разработчика</a> профиля GitHub</li>
-<li>Перейдите в раздел <a href="https://github.com/settings/tokens">Personal access tokens (classic)</a></li>
-<li>Создайте новый <a href="https://github.com/settings/tokens/new">Personal access token</a><ul>
-<li>Задайте настройки:<ul>
-<li><em>Note</em> (например, <code>lpms-app-token</code>)</li>
-<li><em>Expiration</em> (например, <code>30 days</code>)</li>
-<li><em>Select scopes</em> отмечать <em>не требуется</em></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>После сохранения:<ul>
-<li>запишите полученный <em>GITHUB_API_TOKEN</em></li>
-</ul>
-</li>
-</ol>
-<blockquote>
-<p>Значение <em>GITHUB_API_TOKEN</em> будет необходимо указать в переменных окружения на последующих шагах.</p>
-</blockquote>
-<h2 id="telegram-bot-api">TELEGRAM BOT API</h2>
-<blockquote>
-<p>Назначение - отправка уведомлений пользователям:</p>
-<ul>
-<li>Кураторы - о новых работах на проверку</li>
-<li>Студенты - об обновлении статусов работ</li>
-</ul>
-</blockquote>
-<ol>
-<li>Откройте клиент Telegram</li>
-<li>Перейдите в диалог с ботом <a href="https://telegram.me/botfather">@botfather</a></li>
-<li>Создайте бота с помощью команды <code>/newbot</code></li>
-<li>Придумайте username для бота (например, <code>lms-lp-bot</code>)</li>
-<li>Запишите полученный <em>TELEGRAM_BOT_TOKEN</em></li>
-<li>После измените профиль бота:<ul>
-<li>измените имя (например, <code>lms-lp-bot</code>) </li>
-<li>добавьте назначение (например, <code>Официальный бот LMS Learn Python</code>)</li>
-<li>добавьте описание (например, <code>Бот для уведомления пользователей о изменении статусов задач и ревью</code>)</li>
-<li>загрузите аватарку (опционально)</li>
-</ul>
-</li>
-</ol>
-<blockquote>
-<p>Значение <em>TELEGRAM_BOT_TOKEN</em> будет необходимо указать в переменных окружения на последующих шагах.</p>
-</blockquote>
+<h1 id="_1">Резервное копирование</h1>
+<p>Перейдите в рабочий каталог</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">cd</span><span class="w"> </span>~/lpms-app
+</span></code></pre></div>
+<p>Создайте папку для резервного копирования дампов </p>
+<div class="language-bash highlight"><span class="filename">~/lpms-app</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>mkdir<span class="w"> </span>backup
+</span></code></pre></div>
+<p>Для создания резервной копии текущего состояния базы данных выполните команды</p>
+<div class="language-bash highlight"><span class="filename">~/lpms-app</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>app<span class="w"> </span>sh<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;python -Xutf8 manage.py dumpdata --exclude auth.permission --exclude contenttypes &gt; lmsdbdump.json&quot;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>docker<span class="w"> </span>compose<span class="w"> </span>cp<span class="w"> </span>app:/usr/src/app/lmsdbdump.json<span class="w"> </span>./backup/<span class="k">$(</span>date<span class="w"> </span>+<span class="s2">&quot;%Y%m%d_%H%M%S&quot;</span><span class="k">)</span>.json
+</span></code></pre></div>
+<p>Чтобы посмотреть список созданных дампов выполните команду</p>
+<div class="language-bash highlight"><span class="filename">~/lpms-app</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ls<span class="w"> </span>-lh<span class="w"> </span>backup<span class="w"> </span>
+</span></code></pre></div>
 
 
 
@@ -2032,7 +1889,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Нижний колонтитул" >
         
           
-          <a href="../stack/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Описание компонентов">
+          <a href="../update/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Установка обновлений">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2042,20 +1899,20 @@
                 Назад
               </span>
               <div class="md-ellipsis">
-                Описание компонентов
+                Установка обновлений
               </div>
             </div>
           </a>
         
         
           
-          <a href="../workdir/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Создание рабочего каталога">
+          <a href="../restart/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Перезапуск системы">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Вперед
               </span>
               <div class="md-ellipsis">
-                Создание рабочего каталога
+                Перезапуск системы
               </div>
             </div>
             <div class="md-footer__button md-icon">
