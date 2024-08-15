@@ -38,6 +38,7 @@ GITHUB_API_TOKEN=  # (11)
 
 # уведомления
 TELEGRAM_BOT_TOKEN=  # (10)
+TELEGRAM_BOT_USERNAME=  # (13)
 ```
 
 1. Укажите `True` - для режима отладки, иначе оставьте пустым 
@@ -52,6 +53,7 @@ TELEGRAM_BOT_TOKEN=  # (10)
 10. [`Token`](https://core.telegram.org/bots/features#creating-a-new-bot) вашего Телеграм бота. Позволяет отправлять уведомления студентам и кураторам о изменении статусов Тасков и Ревью. 
 11. [`Personal access tokens (classic)`](https://github.com/settings/tokens) вашего аккаунта GitHub. Позволяет увеличить часовой лимит запросов от приложения к GitHub c 60 до 5000. Используется в задачах автокомплита пулл-реквестов и последующей сверки статуса ревью.
 12. Список [доверенных хостов](https://docs.djangoproject.com/en/5.0/ref/settings/#csrf-trusted-origins) для данного сайта. Например: `http://lms.python.ru,http://auth.python.ru,https://lms.python.ru,https://auth.python.ru`
+13. `@username` для вашего Телеграм бота. Указывайте его без @. Например: `lms_lp_bot`
 
 
 ### Примечания
